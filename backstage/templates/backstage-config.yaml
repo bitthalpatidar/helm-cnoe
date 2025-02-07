@@ -146,6 +146,23 @@ data:
           target: https://github.com/opsmx-cnoe/backstage/blob/cnoe/opsmx-inc.yaml
           rules:
             - allow: [Component, Resource]
+        - type: url
+          target: https://github.com/opsmx-cnoe/idpbuilder-localdev-backstage-templates-entities/tree/dev-demo/params/template.yaml
+          rules:
+            - allow: [Component, Resource]
+        - type: url
+          target: https://github.com/opsmx-cnoe/idpbuilder-localdev-backstage-templates-entities/blob/opencd/argocdApp/template.yaml
+          rules:
+            - allow: [Component, Resource]
+        # - type: url
+        #   target: https://github.com/opsmx-cnoe/idpbuilder-localdev-backstage-templates-entities/tree/dev-demo/params/template.yaml
+        #   rules:
+        #     - allow: [Component, Resource]
+        # - type: url
+        #   target: https://github.com/opsmx-cnoe/idpbuilder-localdev-backstage-templates-entities/tree/dev-demo/params/template.yaml
+        #   rules:
+        #     - allow: [Component, Resource]
+            
         ## Uncomment these lines to add an example org
         # - type: url
         #   target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/acme-corp.yaml
