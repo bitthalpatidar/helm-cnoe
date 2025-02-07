@@ -12,5 +12,6 @@ data:
   POSTGRES_USER: xxxxxxxxxx
 kind: Secret
 metadata:
-  name: backstage-env-vars
+  name: backstage-env-vars-x-backstage-x-bp-vcluster 
+  #backstage-env-vars
 type: Opaque
